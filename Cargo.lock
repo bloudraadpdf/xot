@@ -242,8 +242,7 @@ dependencies = [
 [[package]]
 name = "genawaiter"
 version = "0.99.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c86bd0361bcbde39b13475e6e36cb24c329964aa2611be285289d1e4b751c1a0"
+source = "git+ssh://git@github.com/bloudraadpdf/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
 dependencies = [
  "genawaiter-macro",
  "genawaiter-proc-macro",
@@ -253,14 +252,12 @@ dependencies = [
 [[package]]
 name = "genawaiter-macro"
 version = "0.99.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b32dfe1fdfc0bbde1f22a5da25355514b5e450c33a6af6770884c8750aedfbc"
+source = "git+ssh://git@github.com/bloudraadpdf/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
 
 [[package]]
 name = "genawaiter-proc-macro"
 version = "0.99.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "784f84eebc366e15251c4a8c3acee82a6a6f427949776ecb88377362a9621738"
+source = "git+ssh://git@github.com/bloudraadpdf/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
 dependencies = [
  "proc-macro-error",
  "proc-macro-hack",
@@ -828,9 +825,9 @@ checksum = "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de"
 
 [[package]]
 name = "proc-macro-error"
-version = "0.4.12"
+version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "18f33027081eba0a6d8aba6d1b1c3a3be58cbb12106341c2d5759fcd9b5277e7"
+checksum = "da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c"
 dependencies = [
  "proc-macro-error-attr",
  "proc-macro2",
@@ -841,14 +838,12 @@ dependencies = [
 
 [[package]]
 name = "proc-macro-error-attr"
-version = "0.4.12"
+version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a5b4b77fdb63c1eca72173d68d24501c54ab1269409f6b672c85deb18af69de"
+checksum = "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.105",
- "syn-mid",
  "version_check",
 ]
 
@@ -1128,17 +1123,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "syn-mid"
-version = "0.5.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fea305d57546cc8cd04feb14b62ec84bf17f50e3f7b12560d7bfa9265f39d9ed"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn 1.0.105",
 ]
 
 [[package]]

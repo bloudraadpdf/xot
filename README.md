@@ -67,6 +67,13 @@ If you need to process big XML data with high performance, you may not want to
 use a tree library and instead use one of the various XML parser/serialization
 libraries.
 
+## Organisation fork
+
+The `bloudraadpdf` fork selects a full Git revision of its `genawaiter` fork.
+That fork uses `proc-macro-error` 1.0.4.
+Do not add a Cargo patch or copy dependency source into this repository.
+Run `mise install`, then `just check`, before you publish a change.
+
 ## Implementation notes
 
 Xot underneath uses the
