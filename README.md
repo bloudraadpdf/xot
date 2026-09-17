@@ -69,7 +69,7 @@ libraries.
 
 ## Organisation fork
 
-The `bloudraadpdf` fork selects a full Git revision of its `genawaiter` fork.
+The organisation fork selects a full Git revision of its `genawaiter` fork.
 That fork uses `proc-macro-error` 1.0.4.
 Do not add a Cargo patch or copy dependency source into this repository.
 Run `mise install`, then `just check`, before you publish a change.
