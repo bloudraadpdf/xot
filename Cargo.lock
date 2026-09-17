@@ -242,7 +242,7 @@ dependencies = [
 [[package]]
 name = "genawaiter"
 version = "0.99.1"
-source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
+source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f#cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f"
 dependencies = [
  "genawaiter-macro",
  "genawaiter-proc-macro",
@@ -252,12 +252,12 @@ dependencies = [
 [[package]]
 name = "genawaiter-macro"
 version = "0.99.1"
-source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
+source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f#cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f"
 
 [[package]]
 name = "genawaiter-proc-macro"
 version = "0.99.1"
-source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=ea03ca251a41d82c744bfde1c502c1ca0dafd520#ea03ca251a41d82c744bfde1c502c1ca0dafd520"
+source = "git+ssh://git@git.bloudraad.io/external/genawaiter.git?rev=cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f#cc7fd3b7878f99125af1f2fbb278dc52a49b6e8f"
 dependencies = [
  "proc-macro-error",
  "proc-macro-hack",
